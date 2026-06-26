@@ -104,3 +104,4 @@ Output ends with:
 - Arena (14): alignment for every power of two up to 64, rejected alignments, growth over many blocks, oversized requests, zeroing, `strdup`/`memdup`/`sprintf`, the `SP_NEW` macros, mark and rewind, reset, zero-sized and absurdly huge requests.
 - Vector (12): push and index, zero-filled push, pop, extend, insert, ordered and swap removal, sort plus binary search on 500 pseudo-random values, reserve and shrink, overflow refusal, struct elements, double free.
 - Map (15): put, get and overwrite, key copying, binary and empty keys, growth to 5000 entries, removal and probe-chain integrity, a 20,000 operation randomised run checked against a reference model, iteration, clear, reserve, zero-sized values as a set, struct values and hash stability.
+
