@@ -29,4 +29,3 @@ void sptest_fail(const char *file, int line, const char *expr);
 #define CHECK_STR(a, b) CHECK(strcmp((a), (b)) == 0)
 
 #endif
-
